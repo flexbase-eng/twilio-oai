@@ -4258,6 +4258,22 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/verify.v2.service.verification_check'
+              examples:
+                Example 1:
+                  value:
+                    sid: stringstringstringstringstringstri
+                    service_sid: stringstringstringstringstringstri
+                    account_sid: stringstringstringstringstringstri
+                    to: string
+                    channel: sms
+                    status: approved
+                    valid: true
+                    amount: string
+                    payee: string
+                    date_created: '2019-08-24T14:15:22Z'
+                    date_updated: '2019-08-24T14:15:22Z'
+                    sna_attempts_error_codes:
+                      - null
           description: Created
       security:
         - accountSid_authToken: []
