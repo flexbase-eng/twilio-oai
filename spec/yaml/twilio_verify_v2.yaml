@@ -3811,14 +3811,13 @@ paths:
                     channel: sms
                     status: pending
                     valid: true
-                    lookup: null
+                    lookup: ''
                     amount: string
                     payee: string
-                    send_code_attempts:
-                      - null
+                    send_code_attempts: []
                     date_created: '2019-08-24T14:15:22Z'
                     date_updated: '2019-08-24T14:15:22Z'
-                    sna: null
+                    sna: {}
                     url: 'http://example.com'
           headers:
             Retry-After:
